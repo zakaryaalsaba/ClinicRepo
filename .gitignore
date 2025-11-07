@@ -1,0 +1,28 @@
+# Ignore environment files
+.env
+.env.*
+.env.local
+.env.*.local
+WrshBackend/WrshBackendAWS/deploy/.env.dev
+
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Other sensitive files
+*.pem
+*.key
+
+# macOS system files
+.DS_Store
+
+
+
+# Logs
+*.log
+
+# Dependency folders
+dist/
