@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS users (
     role ENUM('Admin','Doctor','Receptionist','Accountant','Lab','Radiologist') NOT NULL,
     linkedDoctorId INT DEFAULT NULL,
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-    -- FOREIGN KEY (linkedDoctorId) REFERENCES doctors(doctorId)
 );
 
 CREATE TABLE IF NOT EXISTS doctors (
